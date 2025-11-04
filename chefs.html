@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ElderBurger | Chefs</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icono -->
+    <link rel="icon" href="imagenes/icono.png" />
+    <!-- CCS externo -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/chefs.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h1 class="logo">
+          <a href="index.html">ELDER<span>BURGER</span></a>
+        </h1>
+        <label class="label_hamburguesa" for="menu_hamburguesa">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            fill="currentColor"
+            class="list_icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </label>
+        <input class="menu_hamburguesa" type="checkbox" id="menu_hamburguesa" />
+        <ul class="ul_links">
+          <li class="li_links">
+            <a href="index.html" class="link">Inicio</a>
+          </li>
+          <li class="li_links">
+            <a href="nosotros.html" class="link">Nosotros</a>
+          </li>
+          <li class="li_links">
+            <a href="menu.html" class="link">Menú</a>
+          </li>
+          <li class="li_links">
+            <a href="chefs.html" class="link link_actual">Chefs</a>
+          </li>
+          <li class="li_links">
+            <a href="galeria.html" class="link">Galería</a>
+          </li>
+          <li class="li_links">
+            <a href="contacto.html" class="link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="nuestros_chefs">
+        <div class="chefs_texto">
+          <h2>Nuestros Chefs</h2>
+        </div>
+        <div class="chefs_cards">
+          <div class="chefs_card">
+            <img src="imagenes/Chef1.jpg" alt="Chef1" />
+            <div class="chef_descripcion">
+              <p class="chef_nombre">Jaynelin Rowder</p>
+              <span class="chef_puesto">Station Chef</span>
+              <p class="chef_carrera">
+                Experta en cocina a la parrilla, Jaynelin combina sabores
+                tradicionales con toques modernos para crear platos
+                irresistibles.
+              </p>
+              <br />
+              <p class="chef_extra">
+                Su compromiso con la calidad se refleja en cada detalle,
+                buscando siempre sorprender a los comensales con presentaciones
+                únicas y sabores inolvidables.
+              </p>
+            </div>
+          </div>
+          <div class="chefs_card">
+            <img src="imagenes/Chef2.jpg" alt="Chef2" />
+            <div class="chef_descripcion">
+              <p class="chef_nombre">Alyssa Bellingtam</p>
+              <span class="chef_puesto">Leader Chef</span>
+              <p class="chef_carrera">
+                Con más de 10 años de experiencia, Alyssa lidera nuestro equipo
+                con pasión, precisión y un amor por la cocina artesanal.
+              </p>
+              <br />
+              <p class="chef_extra">
+                Gracias a su liderazgo, nuestro menú evoluciona constantemente,
+                combinando técnicas clásicas con la creatividad que define la
+                esencia de ElderBurger.
+              </p>
+            </div>
+          </div>
+          <div class="chefs_card">
+            <img src="imagenes/Chef3.jpg" alt="Chef3" />
+            <div class="chef_descripcion">
+              <p class="chef_nombre">Joey Vennym</p>
+              <span class="chef_puesto">Assistant Chef</span>
+              <p class="chef_carrera">
+                Joey es el alma joven del equipo, encargado de la innovación y
+                la presentación impecable de cada hamburguesa.
+              </p>
+              <br />
+              <p class="chef_extra">
+                Su entusiasmo contagioso y su constante búsqueda de nuevos
+                sabores aportan frescura e inspiración a cada servicio en
+                nuestra cocina.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer_logo">
+          <a href="index.html">ELDER<span>BURGER</span></a>
+        </div>
+
+        <ul class="footer_links">
+          <li><a href="menu.html">Menú</a></li>
+          <li><a href="contacto.html">Reservaciones</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="https://www.tiktok.com/@elderburger">Novedades</a></li>
+          <li><a href="contacto.html">Contáctanos</a></li>
+        </ul>
+
+        <div class="footer_redes">
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/elderburger/photos"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/elderburger/photos"
+              >Facebook</a
+            >
+          </div>
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@elderburger?lang=es-419"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@elderburger?lang=es-419"
+              >Tiktok</a
+            >
+          </div>
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/elderburger/?hl=en"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/elderburger/?hl=en"
+              >Instagram</a
+            >
+          </div>
+        </div>
+
+        <div class="footer_suscripcion">
+          <form action="#" method="post">
+            <input type="email" placeholder="Tu correo electrónico" required />
+            <button type="submit" class="button">Suscríbete</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer_derechos">
+        <p>&copy; 2025 GOODBURGER. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

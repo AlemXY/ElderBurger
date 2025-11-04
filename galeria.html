@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ElderBurger | Galería</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icono -->
+    <link rel="icon" href="imagenes/icono.png" />
+    <!-- CCS externo -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/galeria.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h1 class="logo">
+          <a href="index.html">ELDER<span>BURGER</span></a>
+        </h1>
+        <label class="label_hamburguesa" for="menu_hamburguesa">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            fill="currentColor"
+            class="list_icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </label>
+        <input class="menu_hamburguesa" type="checkbox" id="menu_hamburguesa" />
+        <ul class="ul_links">
+          <li class="li_links">
+            <a href="index.html" class="link">Inicio</a>
+          </li>
+          <li class="li_links">
+            <a href="nosotros.html" class="link">Nosotros</a>
+          </li>
+          <li class="li_links">
+            <a href="menu.html" class="link">Menú</a>
+          </li>
+          <li class="li_links">
+            <a href="chefs.html" class="link">Chefs</a>
+          </li>
+          <li class="li_links">
+            <a href="galeria.html" class="link link_actual">Galería</a>
+          </li>
+          <li class="li_links">
+            <a href="contacto.html" class="link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="galeria">
+        <div class="galeria_texto">
+          <h2>Galería</h2>
+        </div>
+        <div class="galeria_grid">
+          <img
+            src="imagenes/special1.jpg"
+            alt="galeria extra"
+            class="galeria_extra1"
+          />
+          <img
+            src="imagenes/special2.jpg"
+            alt="galeria extra"
+            class="galeria_extra2"
+          />
+          <img src="imagenes/Gallery1.jpg" alt="comida1" class="galeria1" />
+          <img src="imagenes/Gallery2.jpg" alt="comida2" class="galeria2" />
+          <img src="imagenes/Gallery3.jpg" alt="comida3" class="galeria3" />
+          <img src="imagenes/Gallery4.jpg" alt="comida4" class="galeria4" />
+          <img
+            src="imagenes/galeria5.jpeg"
+            alt="galeria extra"
+            class="galeria_extra3"
+          />
+          <img
+            src="imagenes/galeria6.jpg"
+            alt="galeria extra"
+            class="galeria_extra4"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer_logo">
+          <a href="index.html">ELDER<span>BURGER</span></a>
+        </div>
+
+        <ul class="footer_links">
+          <li><a href="menu.html">Menú</a></li>
+          <li><a href="contacto.html">Reservaciones</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="https://www.tiktok.com/@elderburger">Novedades</a></li>
+          <li><a href="contacto.html">Contáctanos</a></li>
+        </ul>
+
+        <div class="footer_redes">
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/elderburger/photos"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/elderburger/photos"
+              >Facebook</a
+            >
+          </div>
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@elderburger?lang=es-419"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@elderburger?lang=es-419"
+              >Tiktok</a
+            >
+          </div>
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/elderburger/?hl=en"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/elderburger/?hl=en"
+              >Instagram</a
+            >
+          </div>
+        </div>
+
+        <div class="footer_suscripcion">
+          <form action="#" method="post">
+            <input type="email" placeholder="Tu correo electrónico" required />
+            <button type="submit" class="button">Suscríbete</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer_derechos">
+        <p>&copy; 2025 ELDERBURGER. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

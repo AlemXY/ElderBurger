@@ -1,0 +1,65 @@
+.chefs_cards {
+  flex-direction: column;
+}
+
+.chefs_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50rem;
+  background-color: var(--color-fondo-secundario);
+  gap: 2rem;
+}
+@media (min-width: 1024px) {
+  .chefs_card {
+    max-width: 100rem;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .chefs_card:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+}
+
+.chef_descripcion {
+  padding: 0 2.5rem;
+}
+@media (min-width: 1024px) {
+  .chef_descripcion {
+    text-align: left;
+  }
+}
+
+.chefs_card .chef_nombre {
+  font-size: 3rem;
+}
+
+.chefs_card .chef_puesto {
+  font-size: 2.5rem;
+}
+
+.chefs_card .chef_carrera,
+.chefs_card .chef_extra {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.chefs_card .chef_carrera {
+  margin-bottom: 0;
+}
+
+.chefs_card .chef_extra {
+  margin-top: 0;
+}
+
+.chefs_card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+@media (min-width: 1024px) {
+  .chefs_card img {
+    width: 40%;
+  }
+}

@@ -1,0 +1,92 @@
+.reservas {
+  background-color: var(--color-fondo);
+  color: var(--color-blanco);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.reservas_titulo {
+  font-size: 4.5rem;
+  color: var(--color-principal);
+  margin-bottom: 1rem;
+}
+
+.reservas_texto {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.reservas_formulario {
+  max-width: 70rem;
+  margin: 0 auto;
+  background-color: var(--color-fondo-tabla);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3);
+  text-align: left;
+  display: grid;
+  gap: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.form_grupo label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.form_grupo input,
+.form_grupo textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-blanco);
+  font-size: 2rem;
+}
+
+.form_grupo input:focus,
+.form_grupo textarea:focus {
+  outline: 2px solid var(--color-principal);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.reservas_boton {
+  background-color: var(--color-principal);
+  color: var(--color-negro);
+  border: none;
+  padding: 1.5rem 2.5rem;
+  font-size: 2rem;
+  font-family: var(--fuente-secundaria);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.reservas_boton:hover {
+  background-color: var(--color-secundario);
+}
+
+@media (min-width: 1024px) {
+  .reservas_formulario {
+    grid-template-columns: 1fr 1fr;
+    max-width: 100rem;
+  }
+
+  .form_grupo:nth-child(7) {
+    grid-column: span 2;
+  }
+
+  .reservas_boton {
+    grid-column: span 2;
+    justify-self: center;
+  }
+
+  .form_grupo input,
+  .form_grupo textarea {
+    font-size: 2.3rem;
+  }
+}

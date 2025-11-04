@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ElderBurger | Contacto</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icono -->
+    <link rel="icon" href="imagenes/icono.png" />
+    <!-- CCS externo -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h1 class="logo">
+          <a href="index.html">ELDER<span>BURGER</span></a>
+        </h1>
+        <label class="label_hamburguesa" for="menu_hamburguesa">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            fill="currentColor"
+            class="list_icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </label>
+        <input class="menu_hamburguesa" type="checkbox" id="menu_hamburguesa" />
+        <ul class="ul_links">
+          <li class="li_links">
+            <a href="index.html" class="link">Inicio</a>
+          </li>
+          <li class="li_links">
+            <a href="nosotros.html" class="link">Nosotros</a>
+          </li>
+          <li class="li_links">
+            <a href="menu.html" class="link">Menú</a>
+          </li>
+          <li class="li_links">
+            <a href="chefs.html" class="link">Chefs</a>
+          </li>
+          <li class="li_links">
+            <a href="galeria.html" class="link">Galería</a>
+          </li>
+          <li class="li_links">
+            <a href="contacto.html" class="link link_actual">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="reservas" id="reservas">
+        <h2 class="reservas_titulo">Haz tu Reservación</h2>
+        <p class="reservas_texto">
+          Completa el formulario para reservar tu mesa. ¡Te confirmaremos tu
+          reserva lo antes posible!
+        </p>
+
+        <form class="reservas_formulario" action="#" method="post">
+          <div class="form_grupo">
+            <label for="nombre">Nombre Completo</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingresa tu nombre"
+              required
+            />
+          </div>
+
+          <div class="form_grupo">
+            <label for="email">Correo Electrónico</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ingresa tu correo"
+              required
+            />
+          </div>
+
+          <div class="form_grupo">
+            <label for="telefono">Teléfono</label>
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Ej. +51 999 999 999"
+              required
+            />
+          </div>
+
+          <div class="form_grupo">
+            <label for="personas">Número de Personas</label>
+            <input
+              type="number"
+              id="personas"
+              name="personas"
+              min="1"
+              max="20"
+              required
+            />
+          </div>
+
+          <div class="form_grupo">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required />
+          </div>
+
+          <div class="form_grupo">
+            <label for="hora">Hora</label>
+            <input type="time" id="hora" name="hora" required />
+          </div>
+
+          <div class="form_grupo">
+            <label for="mensaje">Mensaje o Petición Especial</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="4"
+              placeholder="Ej. Mesa cerca de la ventana..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="reservas_boton">Enviar Reserva</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer_logo">
+          <a href="index.html">ELDER<span>BURGER</span></a>
+        </div>
+
+        <ul class="footer_links">
+          <li><a href="menu.html">Menú</a></li>
+          <li><a href="contacto.html">Reservaciones</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="https://www.tiktok.com/@elderburger">Novedades</a></li>
+          <li><a href="contacto.html">Contáctanos</a></li>
+        </ul>
+
+        <div class="footer_redes">
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/elderburger/photos"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/elderburger/photos"
+              >Facebook</a
+            >
+          </div>
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@elderburger?lang=es-419"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@elderburger?lang=es-419"
+              >Tiktok</a
+            >
+          </div>
+          <div class="footer_info">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/elderburger/?hl=en"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/elderburger/?hl=en"
+              >Instagram</a
+            >
+          </div>
+        </div>
+
+        <div class="footer_suscripcion">
+          <form action="#" method="post">
+            <input type="email" placeholder="Tu correo electrónico" required />
+            <button type="submit" class="button">Suscríbete</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer_derechos">
+        <p>&copy; 2025 ELDERBURGER. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
