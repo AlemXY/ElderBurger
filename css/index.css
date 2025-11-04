@@ -576,7 +576,7 @@ blockquote {
 @media (min-width: 1024px) {
   blockquote {
     max-width: 40rem;
-    height: 25rem;
+    height: 35rem;
   }
 }
 
@@ -656,11 +656,11 @@ blockquote p {
   text-align: center;
   color: var(--color-blanco);
   gap: 3rem;
-  padding: 0 5rem 5rem 5rem;
+  padding: 0 3rem 5rem 3rem;
 }
 
 .galeria_grid img {
-  width: 38rem;
+  width: 30rem;
   height: 38rem;
   object-fit: cover;
   object-position: center;
