@@ -1,0 +1,7 @@
+/* Carga ordenada del sistema visual. Mantener responsive al final. */
+@import "./base.css";
+@import "./header.css";
+@import "./home.css";
+@import "./pages.css";
+@import "./footer.css";
+@import "./responsive.css";
